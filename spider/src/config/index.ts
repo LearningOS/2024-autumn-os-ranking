@@ -2,9 +2,9 @@ import * as dotenv from "dotenv";
 
 export const config = dotenv.config();
 
-export const organiztion: string = 'LearningOS';            // 组织
+export const organiztion: string = 'LearningOS'; // 组织
 export const fullOrganization: string = '19380377-rcore-camp-2024a-classroom'; // classroom名称
-export const assignment = '2024a-rcore';   // assignment
+export const assignment = '2024a-rcore'; // assignment
 export const works = ['ch3','ch4','ch5','ch6','ch8']; // assignment 的不同情况
 export const AUTH_TOKEN = process.env['TOKEN'];
 
